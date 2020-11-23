@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "post-to-pimp",
+  "version": "1.0",
+  "description": "",
+  "homepage_url": "https://99.117.186.91",
+  "icons": {
+    "48": "icons/pimp.png"
+  },
+
+  "permissions": [
+    "tabs","notifications",
+    "https://99.117.186.91/pimp/prepend/5fbaf42e8b3d8e41f99d8316"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/pimp.png",
+    "default_title": "Post To Pimp"
+  },
+
+  "background": {
+    "scripts": ["jquery.js", "background.js"]
+  }
+
+}
